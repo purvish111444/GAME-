@@ -1,0 +1,80 @@
+
+  /*    id mate # 
+        class mate .
+        * badha mate 
+
+   */
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    background:black;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;   /*its move to verticali centre */
+    border-radius: 1rem;
+    display: inline;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+    
+   
+    
+}
+.choice{
+
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    display:inline;
+    justify-content: center;
+    align-items: center;
+    
+}
+.choice:hover{
+    /*opacity: 50%; */ /* opacity is blur the area */
+    cursor:pointer; /* cursor position in pointer */
+    background-color: black;
+}
+img{
+    height: 150px;
+    width:150px;
+    object-fit:cover;
+    border-radius: 50%; /* is squre to circle */
+}
+.choices{
+    display: flex; /* align in one line */
+    justify-content: center;
+    align-items:center;
+    gap : 5rem;
+    margin-top: 5rem;
+}
+.scoreboard{
+    display:flex;
+    justify-content:center;
+    align-items:center ;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+#you,#comp{
+    font-size: 5rem;
+}
+.messages{
+    margin-top: 3rem;
+    border-radius: 1rem;
+}
+#message{
+    background-color: blue;
+    color:azure;
+    font-size : 2rem;
+    margin-top: 3rem;
+    line-height: 5rem;
+    display: inline; /* inline ae text hoy aetlo bhag dekhay */
+    padding: 1rem;/* padding is use to cover text  */
+    border-radius: 1rem;
+    
+
+}
